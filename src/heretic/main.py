@@ -416,7 +416,7 @@ def run():
 
                         user = huggingface_hub.whoami(token)
                         print(
-                            f"Logged in as [bold]{user['fullname']} ({user['email']})[/]"
+                            f"Logged in as [bold]{user['fullname']}[/]"
                         )
 
                         repo_id = questionary.text(
